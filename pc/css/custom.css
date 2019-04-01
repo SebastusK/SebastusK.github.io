@@ -40,7 +40,7 @@
         font-family: 'GothamLight';
         border-radius: 20px;
         border-color: transparent;
-        background-image: linear-gradient(to right,rgba(99,40,129,1) 60% , rgba(247,230,1) );
+        background-image: linear-gradient(to right,rgba(99,40,129,1) 60% , rgb(247,230) );
       }
       #btnTable{
         margin-right: auto;
