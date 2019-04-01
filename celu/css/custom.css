@@ -1,0 +1,83 @@
+    @font-face {
+        font-family: "GothamUltraItalic";
+        src: url("./fonts/Gotham-UltraItalic.otf") format("opentype");
+    }
+     @font-face {
+        font-family: "GothamBlack";
+        src: url("./fonts/Gotham-Black.otf") format("opentype");
+        font-size: 50px;
+    }
+    @font-face {
+        font-family: "GothamBookItalic";
+        src: url("./fonts/Gotham-BookItalic.otf") format("opentype");
+    }
+    @font-face {
+        font-family: "GothamLight";
+        src: url("./fonts/GothamLight.ttf") format("truetype");
+    }
+     #logoPrinc{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      }
+      #txtNav{
+        font-family: GothamBlack;
+        font-size: 0.8em;
+      }
+      #tablePrinc{
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #textPrinc{
+        text-align: center;
+      }
+      #grad {
+        content: "";
+        clear: both;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 150px;
+        padding-left: 150px;
+        overflow:hidden;
+        font-family: 'GothamLight';
+        border-radius: 20px;
+        border-color: transparent;
+        background-image: linear-gradient(to right,rgba(99,40,129,1) 60% , rgba(247,230,1) );
+      }
+      #btnTable{
+        margin-right: auto;
+        margin-right: auto;
+        border-radius: 200%;
+        padding: 10px;
+        background-color: rgba(99,40,129,1);
+        border-color: rgba(99,40,129,1);
+      }
+      #trBtns{
+        align-items: center;
+        border-spacing: 30px;
+      }
+      #tableBtns{
+        margin-left: 60px;
+      }
+
+  #cuadros{
+    background-image: linear-gradient(45deg,rgba(99,40,129,1) 60% , rgba(247,230,0) );
+    font-family: GothamBlack; 
+    padding-left: 5px; 
+    padding-right: 5px; 
+    color: #F7E600;
+  }
+  #cuadros2{
+    background-image: linear-gradient(125deg,rgba(99,40,129,1) 50% , rgba(247,230,0) );
+    font-family: GothamBlack; 
+    padding-left: 5px; 
+    padding-right: 5px; 
+    color: #F7E600;
+  }
+  #links{
+    font-family: GothamLight;
+    color: #632881;
+    font-size: 15px;
+  }
